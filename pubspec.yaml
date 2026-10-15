@@ -1,0 +1,97 @@
+name: flutter_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_iframe: ^5.2.1
+  flutter_inappwebview: ^6.2.0-beta.3
+  shared_preferences: ^2.2.2
+
+  youtube_player_flutter: ^9.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+dependency_overrides:
+  webview_flutter_android: 3.16.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Main_Background.png
+    - assets/Mascot_Pose1.png
+    - assets/Main_Background2.png
+    - assets/Main_Background2Long.png
+    - assets/icon/AboutIconOff.png
+    - assets/icon/AboutIconOn.png
+    - assets/icon/HomePageIconOn.png
+    - assets/icon/HomePageIconOff.png
+    - assets/icon/MateriIconOn.png
+    - assets/icon/MateriIconOff.png
+    - assets/icon/UserIcon.png
+    - assets/Trashed_Apple.png
+    - assets/TrashBin.png
+    - assets/Health.png
+    - assets/GoodJob.png
+    - assets/Background_Sub.png
+    - assets/Senter.png
+    - assets/Peluit.png
+    - assets/Eskrim.png
+    - assets/Robot.png
+    - assets/Tas.png
+    - assets/Earth_Mascot_Lose.png
+    - assets/Botol.png
+    - assets/Plastik.png
+    - assets/Kaleng.png
+    - assets/Kaleng2.png
+    - assets/Kebakaran_Game/Helm.png
+    - assets/Kebakaran_Game/Masker.png
+    - assets/Kebakaran_Game/Obat.png
+    - assets/Kebakaran_Game/Topi.png
+    - assets/Kebakaran_Game/Tangga.png
+    - assets/Kebakaran_Game/Lift.png
+    - assets/Kebakaran_Game/Towel.png
+    - assets/Kebakaran_Game/Water_Bucket.png
+    - assets/Kebakaran_Game/Pan_Fire.png
+    - assets/Kebakaran_Game/Pan_Normal.png
+    - assets/Kebakaran_Game/Buku_Gambar.png
+    - assets/Kebakaran_Game/Korek.png
+    - assets/Longsor_Game/Longsor_Scenario_Image.png
+    - assets/Longsor_Game/Bunga.png
+    - assets/Longsor_Game/Cabe.png
+    - assets/Longsor_Game/Pohon.png
+    - assets/Longsor_Game/Jalan_Broken.png
+    - assets/Longsor_Game/Jalan_Pelangi.png
+    - assets/Gempa_Game/Kid_Standing.png
+    - assets/Gempa_Game/Kid_BelowTable.png
+    - assets/Gempa_Game/Blue_Vase.png
+    - assets/Gempa_Game/Pink_Vase.png
+    - assets/Gempa_Game/Yellow_Vase.png
+    - assets/Gempa_Game/Environtment_1.png
+    - assets/Gempa_Game/TV_On.png
+    - assets/Gempa_Game/TV_Off.png
+    - assets/Gempa_Game/Saklar.png
+    - assets/Background_About.png
+
+  fonts:
+    - family: Titan One
+      fonts:
+        - asset: assets/fonts/TitanOne-Regular.ttf
+
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
